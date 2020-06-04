@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C816D1B240CDEDD007FE599 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C816D10240CDEDD007FE599 /* README.md */; };
+		7C816D1C240CDEDD007FE599 /* KDTree+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D12240CDEDD007FE599 /* KDTree+Sequence.swift */; };
+		7C816D1D240CDEDD007FE599 /* KDTree+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D13240CDEDD007FE599 /* KDTree+Codable.swift */; };
+		7C816D1E240CDEDD007FE599 /* KDTree+RangeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D14240CDEDD007FE599 /* KDTree+RangeSearch.swift */; };
+		7C816D1F240CDEDD007FE599 /* CGPoint+KDTreePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D15240CDEDD007FE599 /* CGPoint+KDTreePoint.swift */; };
+		7C816D20240CDEDD007FE599 /* KDTreePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D16240CDEDD007FE599 /* KDTreePoint.swift */; };
+		7C816D21240CDEDD007FE599 /* KDTree+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D17240CDEDD007FE599 /* KDTree+CustomStringConvertible.swift */; };
+		7C816D22240CDEDD007FE599 /* KDTree+NearestNeighbour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D18240CDEDD007FE599 /* KDTree+NearestNeighbour.swift */; };
+		7C816D23240CDEDD007FE599 /* KDTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D19240CDEDD007FE599 /* KDTree.swift */; };
+		7C816D24240CDEDD007FE599 /* KDTree+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D1A240CDEDD007FE599 /* KDTree+Equatable.swift */; };
+		7C816D2D240D0D88007FE599 /* NobelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C816D2C240D0D88007FE599 /* NobelDetailViewController.swift */; };
+		7CDE1A8C2409B6E6005B73E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1A8B2409B6E6005B73E5 /* AppDelegate.swift */; };
+		7CDE1A8E2409B6E6005B73E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1A8D2409B6E6005B73E5 /* SceneDelegate.swift */; };
+		7CDE1A902409B6E6005B73E5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1A8F2409B6E6005B73E5 /* MapViewController.swift */; };
+		7CDE1A932409B6E6005B73E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE1A912409B6E6005B73E5 /* Main.storyboard */; };
+		7CDE1A952409B6E8005B73E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE1A942409B6E8005B73E5 /* Assets.xcassets */; };
+		7CDE1A982409B6E8005B73E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE1A962409B6E8005B73E5 /* LaunchScreen.storyboard */; };
+		7CDE1AA32409B6E9005B73E5 /* TimeMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AA22409B6E9005B73E5 /* TimeMachineTests.swift */; };
+		7CDE1AAE2409B6E9005B73E5 /* TimeMachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AAD2409B6E9005B73E5 /* TimeMachineUITests.swift */; };
+		7CDE1AC02409B835005B73E5 /* nobel-prize-laureates.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE1ABF2409B835005B73E5 /* nobel-prize-laureates.json */; };
+		7CDE1AC32409B8F4005B73E5 /* Nobel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AC22409B8F4005B73E5 /* Nobel.swift */; };
+		7CDE1AC52409BA75005B73E5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AC42409BA75005B73E5 /* Location.swift */; };
+		7CDE1AC72409C018005B73E5 /* SpaceTimePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AC62409C018005B73E5 /* SpaceTimePoint.swift */; };
+		7CDE1AD4240A0A9D005B73E5 /* STPAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AD3240A0A9D005B73E5 /* STPAnnotation.swift */; };
+		7CDE1AD6240A166B005B73E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AD5240A166B005B73E5 /* MainViewController.swift */; };
+		7CDE1AD8240A167B005B73E5 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1AD7240A167B005B73E5 /* ListViewController.swift */; };
+		7CDE1ADB240A1E4B005B73E5 /* SpaceTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE1ADA240A1E4B005B73E5 /* SpaceTimeCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CDE1A9F2409B6E9005B73E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDE1A802409B6E6005B73E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CDE1A872409B6E6005B73E5;
+			remoteInfo = TimeMachine;
+		};
+		7CDE1AAA2409B6E9005B73E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDE1A802409B6E6005B73E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CDE1A872409B6E6005B73E5;
+			remoteInfo = TimeMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C816D10240CDEDD007FE599 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C816D12240CDEDD007FE599 /* KDTree+Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KDTree+Sequence.swift"; sourceTree = "<group>"; };
+		7C816D13240CDEDD007FE599 /* KDTree+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KDTree+Codable.swift"; sourceTree = "<group>"; };
+		7C816D14240CDEDD007FE599 /* KDTree+RangeSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KDTree+RangeSearch.swift"; sourceTree = "<group>"; };
+		7C816D15240CDEDD007FE599 /* CGPoint+KDTreePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+KDTreePoint.swift"; sourceTree = "<group>"; };
+		7C816D16240CDEDD007FE599 /* KDTreePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDTreePoint.swift; sourceTree = "<group>"; };
+		7C816D17240CDEDD007FE599 /* KDTree+CustomStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KDTree+CustomStringConvertible.swift"; sourceTree = "<group>"; };
+		7C816D18240CDEDD007FE599 /* KDTree+NearestNeighbour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KDTree+NearestNeighbour.swift"; sourceTree = "<group>"; };
+		7C816D19240CDEDD007FE599 /* KDTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDTree.swift; sourceTree = "<group>"; };
+		7C816D1A240CDEDD007FE599 /* KDTree+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KDTree+Equatable.swift"; sourceTree = "<group>"; };
+		7C816D2C240D0D88007FE599 /* NobelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NobelDetailViewController.swift; sourceTree = "<group>"; };
+		7CDE1A882409B6E6005B73E5 /* TimeMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDE1A8B2409B6E6005B73E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CDE1A8D2409B6E6005B73E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CDE1A8F2409B6E6005B73E5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7CDE1A922409B6E6005B73E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CDE1A942409B6E8005B73E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CDE1A972409B6E8005B73E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CDE1A992409B6E8005B73E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDE1A9E2409B6E9005B73E5 /* TimeMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDE1AA22409B6E9005B73E5 /* TimeMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMachineTests.swift; sourceTree = "<group>"; };
+		7CDE1AA42409B6E9005B73E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDE1AA92409B6E9005B73E5 /* TimeMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDE1AAD2409B6E9005B73E5 /* TimeMachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeMachineUITests.swift; sourceTree = "<group>"; };
+		7CDE1AAF2409B6E9005B73E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDE1ABF2409B835005B73E5 /* nobel-prize-laureates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nobel-prize-laureates.json"; sourceTree = "<group>"; };
+		7CDE1AC22409B8F4005B73E5 /* Nobel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nobel.swift; sourceTree = "<group>"; };
+		7CDE1AC42409BA75005B73E5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7CDE1AC62409C018005B73E5 /* SpaceTimePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTimePoint.swift; sourceTree = "<group>"; };
+		7CDE1AD3240A0A9D005B73E5 /* STPAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STPAnnotation.swift; sourceTree = "<group>"; };
+		7CDE1AD5240A166B005B73E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7CDE1AD7240A167B005B73E5 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		7CDE1ADA240A1E4B005B73E5 /* SpaceTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTimeCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDE1A852409B6E6005B73E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1A9B2409B6E9005B73E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1AA62409B6E9005B73E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C816D0E240CDEDD007FE599 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7C816D0F240CDEDD007FE599 /* KDTree */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7C816D0F240CDEDD007FE599 /* KDTree */ = {
+			isa = PBXGroup;
+			children = (
+				7C816D10240CDEDD007FE599 /* README.md */,
+				7C816D11240CDEDD007FE599 /* Sources */,
+			);
+			path = KDTree;
+			sourceTree = "<group>";
+		};
+		7C816D11240CDEDD007FE599 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7C816D12240CDEDD007FE599 /* KDTree+Sequence.swift */,
+				7C816D13240CDEDD007FE599 /* KDTree+Codable.swift */,
+				7C816D14240CDEDD007FE599 /* KDTree+RangeSearch.swift */,
+				7C816D15240CDEDD007FE599 /* CGPoint+KDTreePoint.swift */,
+				7C816D16240CDEDD007FE599 /* KDTreePoint.swift */,
+				7C816D17240CDEDD007FE599 /* KDTree+CustomStringConvertible.swift */,
+				7C816D18240CDEDD007FE599 /* KDTree+NearestNeighbour.swift */,
+				7C816D19240CDEDD007FE599 /* KDTree.swift */,
+				7C816D1A240CDEDD007FE599 /* KDTree+Equatable.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7C816D2B240D0D6B007FE599 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7C816D2C240D0D88007FE599 /* NobelDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		7CDE1A7F2409B6E6005B73E5 = {
+			isa = PBXGroup;
+			children = (
+				7CDE1A8A2409B6E6005B73E5 /* TimeMachine */,
+				7CDE1AA12409B6E9005B73E5 /* TimeMachineTests */,
+				7CDE1AAC2409B6E9005B73E5 /* TimeMachineUITests */,
+				7CDE1A892409B6E6005B73E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDE1A892409B6E6005B73E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1A882409B6E6005B73E5 /* TimeMachine.app */,
+				7CDE1A9E2409B6E9005B73E5 /* TimeMachineTests.xctest */,
+				7CDE1AA92409B6E9005B73E5 /* TimeMachineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDE1A8A2409B6E6005B73E5 /* TimeMachine */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1A8B2409B6E6005B73E5 /* AppDelegate.swift */,
+				7CDE1A8D2409B6E6005B73E5 /* SceneDelegate.swift */,
+				7CDE1AD0240A09F3005B73E5 /* Annotations */,
+				7CDE1AD9240A1E2F005B73E5 /* ViewControllers */,
+				7CDE1ADC240A1E56005B73E5 /* Views */,
+				7CDE1AC12409B8DF005B73E5 /* Model */,
+				7CDE1ABE2409B817005B73E5 /* Resources */,
+				7C816D0E240CDEDD007FE599 /* Vendor */,
+				7CDE1A942409B6E8005B73E5 /* Assets.xcassets */,
+				7CDE1A912409B6E6005B73E5 /* Main.storyboard */,
+				7CDE1A962409B6E8005B73E5 /* LaunchScreen.storyboard */,
+				7CDE1A992409B6E8005B73E5 /* Info.plist */,
+			);
+			path = TimeMachine;
+			sourceTree = "<group>";
+		};
+		7CDE1AA12409B6E9005B73E5 /* TimeMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1AA22409B6E9005B73E5 /* TimeMachineTests.swift */,
+				7CDE1AA42409B6E9005B73E5 /* Info.plist */,
+			);
+			path = TimeMachineTests;
+			sourceTree = "<group>";
+		};
+		7CDE1AAC2409B6E9005B73E5 /* TimeMachineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1AAD2409B6E9005B73E5 /* TimeMachineUITests.swift */,
+				7CDE1AAF2409B6E9005B73E5 /* Info.plist */,
+			);
+			path = TimeMachineUITests;
+			sourceTree = "<group>";
+		};
+		7CDE1ABE2409B817005B73E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1ABF2409B835005B73E5 /* nobel-prize-laureates.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CDE1AC12409B8DF005B73E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1AC42409BA75005B73E5 /* Location.swift */,
+				7CDE1AC22409B8F4005B73E5 /* Nobel.swift */,
+				7CDE1AC62409C018005B73E5 /* SpaceTimePoint.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CDE1AD0240A09F3005B73E5 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1AD3240A0A9D005B73E5 /* STPAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		7CDE1AD9240A1E2F005B73E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1AD5240A166B005B73E5 /* MainViewController.swift */,
+				7CDE1A8F2409B6E6005B73E5 /* MapViewController.swift */,
+				7CDE1AD7240A167B005B73E5 /* ListViewController.swift */,
+				7C816D2B240D0D6B007FE599 /* Detail */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7CDE1ADC240A1E56005B73E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CDE1ADA240A1E4B005B73E5 /* SpaceTimeCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDE1A872409B6E6005B73E5 /* TimeMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDE1AB22409B6E9005B73E5 /* Build configuration list for PBXNativeTarget "TimeMachine" */;
+			buildPhases = (
+				7CDE1A842409B6E6005B73E5 /* Sources */,
+				7CDE1A852409B6E6005B73E5 /* Frameworks */,
+				7CDE1A862409B6E6005B73E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeMachine;
+			productName = TimeMachine;
+			productReference = 7CDE1A882409B6E6005B73E5 /* TimeMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CDE1A9D2409B6E9005B73E5 /* TimeMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDE1AB52409B6E9005B73E5 /* Build configuration list for PBXNativeTarget "TimeMachineTests" */;
+			buildPhases = (
+				7CDE1A9A2409B6E9005B73E5 /* Sources */,
+				7CDE1A9B2409B6E9005B73E5 /* Frameworks */,
+				7CDE1A9C2409B6E9005B73E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CDE1AA02409B6E9005B73E5 /* PBXTargetDependency */,
+			);
+			name = TimeMachineTests;
+			productName = TimeMachineTests;
+			productReference = 7CDE1A9E2409B6E9005B73E5 /* TimeMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CDE1AA82409B6E9005B73E5 /* TimeMachineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDE1AB82409B6E9005B73E5 /* Build configuration list for PBXNativeTarget "TimeMachineUITests" */;
+			buildPhases = (
+				7CDE1AA52409B6E9005B73E5 /* Sources */,
+				7CDE1AA62409B6E9005B73E5 /* Frameworks */,
+				7CDE1AA72409B6E9005B73E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CDE1AAB2409B6E9005B73E5 /* PBXTargetDependency */,
+			);
+			name = TimeMachineUITests;
+			productName = TimeMachineUITests;
+			productReference = 7CDE1AA92409B6E9005B73E5 /* TimeMachineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDE1A802409B6E6005B73E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Retinal Media";
+				TargetAttributes = {
+					7CDE1A872409B6E6005B73E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7CDE1A9D2409B6E9005B73E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7CDE1A872409B6E6005B73E5;
+					};
+					7CDE1AA82409B6E9005B73E5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7CDE1A872409B6E6005B73E5;
+					};
+				};
+			};
+			buildConfigurationList = 7CDE1A832409B6E6005B73E5 /* Build configuration list for PBXProject "TimeMachine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CDE1A7F2409B6E6005B73E5;
+			productRefGroup = 7CDE1A892409B6E6005B73E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDE1A872409B6E6005B73E5 /* TimeMachine */,
+				7CDE1A9D2409B6E9005B73E5 /* TimeMachineTests */,
+				7CDE1AA82409B6E9005B73E5 /* TimeMachineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDE1A862409B6E6005B73E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDE1AC02409B835005B73E5 /* nobel-prize-laureates.json in Resources */,
+				7CDE1A982409B6E8005B73E5 /* LaunchScreen.storyboard in Resources */,
+				7C816D1B240CDEDD007FE599 /* README.md in Resources */,
+				7CDE1A952409B6E8005B73E5 /* Assets.xcassets in Resources */,
+				7CDE1A932409B6E6005B73E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1A9C2409B6E9005B73E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1AA72409B6E9005B73E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDE1A842409B6E6005B73E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C816D1E240CDEDD007FE599 /* KDTree+RangeSearch.swift in Sources */,
+				7C816D23240CDEDD007FE599 /* KDTree.swift in Sources */,
+				7CDE1A902409B6E6005B73E5 /* MapViewController.swift in Sources */,
+				7C816D1D240CDEDD007FE599 /* KDTree+Codable.swift in Sources */,
+				7CDE1AD6240A166B005B73E5 /* MainViewController.swift in Sources */,
+				7CDE1AD8240A167B005B73E5 /* ListViewController.swift in Sources */,
+				7CDE1AC72409C018005B73E5 /* SpaceTimePoint.swift in Sources */,
+				7CDE1ADB240A1E4B005B73E5 /* SpaceTimeCell.swift in Sources */,
+				7C816D22240CDEDD007FE599 /* KDTree+NearestNeighbour.swift in Sources */,
+				7C816D24240CDEDD007FE599 /* KDTree+Equatable.swift in Sources */,
+				7CDE1A8C2409B6E6005B73E5 /* AppDelegate.swift in Sources */,
+				7C816D1F240CDEDD007FE599 /* CGPoint+KDTreePoint.swift in Sources */,
+				7C816D20240CDEDD007FE599 /* KDTreePoint.swift in Sources */,
+				7CDE1AC32409B8F4005B73E5 /* Nobel.swift in Sources */,
+				7CDE1AD4240A0A9D005B73E5 /* STPAnnotation.swift in Sources */,
+				7CDE1AC52409BA75005B73E5 /* Location.swift in Sources */,
+				7C816D2D240D0D88007FE599 /* NobelDetailViewController.swift in Sources */,
+				7C816D21240CDEDD007FE599 /* KDTree+CustomStringConvertible.swift in Sources */,
+				7CDE1A8E2409B6E6005B73E5 /* SceneDelegate.swift in Sources */,
+				7C816D1C240CDEDD007FE599 /* KDTree+Sequence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1A9A2409B6E9005B73E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDE1AA32409B6E9005B73E5 /* TimeMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE1AA52409B6E9005B73E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDE1AAE2409B6E9005B73E5 /* TimeMachineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CDE1AA02409B6E9005B73E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CDE1A872409B6E6005B73E5 /* TimeMachine */;
+			targetProxy = 7CDE1A9F2409B6E9005B73E5 /* PBXContainerItemProxy */;
+		};
+		7CDE1AAB2409B6E9005B73E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CDE1A872409B6E6005B73E5 /* TimeMachine */;
+			targetProxy = 7CDE1AAA2409B6E9005B73E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CDE1A912409B6E6005B73E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDE1A922409B6E6005B73E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDE1A962409B6E8005B73E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDE1A972409B6E8005B73E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDE1AB02409B6E9005B73E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CDE1AB12409B6E9005B73E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDE1AB32409B6E9005B73E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLXJVAWA57;
+				INFOPLIST_FILE = TimeMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retinalmedia.ios.TimeMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CDE1AB42409B6E9005B73E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLXJVAWA57;
+				INFOPLIST_FILE = TimeMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retinalmedia.ios.TimeMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CDE1AB62409B6E9005B73E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLXJVAWA57;
+				INFOPLIST_FILE = TimeMachineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retinalmedia.ios.TimeMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMachine.app/TimeMachine";
+			};
+			name = Debug;
+		};
+		7CDE1AB72409B6E9005B73E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLXJVAWA57;
+				INFOPLIST_FILE = TimeMachineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retinalmedia.ios.TimeMachineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMachine.app/TimeMachine";
+			};
+			name = Release;
+		};
+		7CDE1AB92409B6E9005B73E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLXJVAWA57;
+				INFOPLIST_FILE = TimeMachineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retinalmedia.ios.TimeMachineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeMachine;
+			};
+			name = Debug;
+		};
+		7CDE1ABA2409B6E9005B73E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZLXJVAWA57;
+				INFOPLIST_FILE = TimeMachineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retinalmedia.ios.TimeMachineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeMachine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDE1A832409B6E6005B73E5 /* Build configuration list for PBXProject "TimeMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE1AB02409B6E9005B73E5 /* Debug */,
+				7CDE1AB12409B6E9005B73E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDE1AB22409B6E9005B73E5 /* Build configuration list for PBXNativeTarget "TimeMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE1AB32409B6E9005B73E5 /* Debug */,
+				7CDE1AB42409B6E9005B73E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDE1AB52409B6E9005B73E5 /* Build configuration list for PBXNativeTarget "TimeMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE1AB62409B6E9005B73E5 /* Debug */,
+				7CDE1AB72409B6E9005B73E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDE1AB82409B6E9005B73E5 /* Build configuration list for PBXNativeTarget "TimeMachineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDE1AB92409B6E9005B73E5 /* Debug */,
+				7CDE1ABA2409B6E9005B73E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDE1A802409B6E6005B73E5 /* Project object */;
+}
